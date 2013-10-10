@@ -11,8 +11,8 @@ public class Graph<N, E> {
 	 * 1: no duplicate keys in this.Graph, which means no same nodes 
 	 * in the graph  //this is already guaranteed by Set structure, so don't need to test
 	 * 2: Graph != null
-	  	 * 3: no same keys in every node's children map
-		 * 4: no any keys in every node's children maps maps to null or a empty set
+	 * 3: no same keys in every node's children map
+	 * 4: no any keys in every node's children maps maps to null or a empty set
 	 */
 	
 	private Map<N, Node<N, E>> Graph;
