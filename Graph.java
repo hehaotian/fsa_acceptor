@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 public class Graph<N, E> {
@@ -353,6 +354,7 @@ public class Graph<N, E> {
 				if(curNode.children.get(cur3) == null || curNode.children.get(cur3).isEmpty()) {
 					throw new RuntimeException("the Representative Invariant of Graph is failed");
 				}
+				
 			}
 		}
 	}
