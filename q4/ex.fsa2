@@ -1,0 +1,5 @@
+"a" "a" "b" => yes
+"a" "a" => yes
+"b" => no
+"a" "b" "a" => yes
+"a" "c" => no

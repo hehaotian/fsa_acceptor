@@ -12,8 +12,8 @@ public class fsa_acceptor2 {
    public static void main(String[] args) throws IOException {
    
       // reads files from the arguments the command line gives
-      File fsafile = new File("q2/fsa5");
-      File texfile = new File("ex2");
+      File fsafile = new File(args[0]);
+      File texfile = new File(args[1]);
       
       Scanner fsar = new Scanner(fsafile);
       Scanner text = new Scanner(texfile);
