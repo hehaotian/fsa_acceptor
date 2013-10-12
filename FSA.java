@@ -53,8 +53,7 @@ public class FSA {
                if(nextStates.contains(line.charAt(i) + "")) {
                   next.add(nextState);
                }
-            }
-            
+            }           
          }
          
          // no next states coming up before inputs run out
