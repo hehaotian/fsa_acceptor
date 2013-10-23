@@ -1,5 +1,5 @@
-fsa
-===
+fsa_acceptor
+============
 
 In this program, I use an external Graph class made by my friend Yaohua in CSE 331 class, which is just like 
 the popular JGraphT online. It helps me to create a nested HashMap to store all the transitions in the Carmel
